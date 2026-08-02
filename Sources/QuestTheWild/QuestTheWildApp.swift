@@ -8,7 +8,6 @@ struct QuestTheWildApp: App {
         WindowGroup {
             RootView()
                 .environmentObject(appState)
-                .preferredColorScheme(appState.theme.colorScheme)
         }
     }
 }
